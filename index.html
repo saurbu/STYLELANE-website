@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopLane App</title>
+    <link href="./style.css" rel="stylesheet" />
+    <link href="./style2.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/3bfa96bd8d.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+</head>
+
+<body>
+    <header>
+        <div id="logo-links">
+            <div>
+                <a id="logo" href="./index.html">STYLE</a><a id="logo2" href="./index.html">LANE</a>
+            </div>
+            <a href="#clothing-heading" id="clothing-link">CLOTHINGS</a>
+            <a href="#Accessories-heading" id="accessories-link">ACCESSORIES</a>
+        </div>
+
+        <div id="search-tab">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Search for Clothing and Accessories" size="40" id="search-box" />
+        </div>
+
+        <div id="cart-user">
+            <i id="cart" class="fa-solid fa-cart-shopping"></i>
+            <img src="./images/saurav.jpeg" id="user-img" />
+            <span id="items-count">0</span>
+        </div>
+
+    </header>
+
+
+    <div class="carousel" data-flickity='{"autoPlay": true}'>
+        <div class="carousel-cell"><img src="./images/1.png" /></div>
+        <div class="carousel-cell"><img src="./images/2.png" /></div>
+        <div class="carousel-cell"><img src="./images/3.png" /></div>
+        <div class="carousel-cell"><img src="./images/4.png" /></div>
+    </div>
+
+
+    <div id="usp">
+
+        <div class="icons">
+            <div class="feature-img">
+                <img src="https://shoplane.netlify.app/img/icon1.png" class="usp-img" alt="">
+            </div>
+            <h3 class="feature-name">Free Delivery</h3>
+        </div>
+
+
+        <div class="icons">
+            <div class="feature-img">
+                <img src="https://shoplane.netlify.app/img/icon2.png" class="usp-img" alt="">
+            </div>
+            <h2 class="feature-name">Money Back Gurantee</h2>
+        </div>
+
+
+        <div class="icons">
+            <div class="feature-img">
+                <img src="https://shoplane.netlify.app/img/icon3.png" class="usp-img" alt="">
+            </div>
+            <h2 class="feature-name">Always Support</h2>
+        </div>
+
+
+        <div class="icons">
+            <div class="feature-img">
+                <img src="https://shoplane.netlify.app/img/icon4.png" class="usp-img" alt="">
+            </div>
+            <h2 class="feature-name">Secure Payment</h2>
+        </div>
+
+    </div>
+
+
+    <h2 id="clothing-heading"> Clothing for men and women </h2>
+    <div id="clothing-section" class="product-grid">
+
+
+
+    </div>
+    <h2 id="Accessories-heading">Accessories for Men and Women</h2>
+    <div id="Accessories-section" class="product-grid">
+
+    </div>
+
+    <footer>
+
+        <div id="footer-details">
+            <div>
+                <ul>
+                    <li><b>ONLINE STORE</b></li>
+                    <li><a href="">MEN CLOTHING</a></li>
+                    <li><a href="">WOMEN CLOTHING</a></li>
+                    <li><a href="">MEN ACCESSORIES</a></li>
+                    <li><a href="">WOMEN ACCESSORIES</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <ul>
+                    <li><b>HELPFUL LINK</b></li>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <ul>
+                    <li><b>PARTNERS</b></li>
+                    <li><a href="">ZARA</a></li>
+                    <li><a href="">PANTALOONS</a></li>
+                    <li><a href="">LEVIS</a></li>
+                    <li><a href="">UCB</a></li>
+                    <li><a href="">+ MANY MORE</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <ul>
+                    <li><b>ADDRESS</b></li>
+                    <li>BUILDING 101</li>
+                    <li>CENTRAL AVENUE</li>
+                    <li>LA - 902722</li>
+                    <li>UNITED STATES</li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="ftr-img">
+            <h5>Follow Us On :</h5>
+            <img src="./images/fb (2).png" alt="">
+            <img src="./images/ins.png" alt="">
+        </div>
+            <p>© 2024 STYLELANE</p>
+
+    </footer>
+</body>
+<script src="./index.js"></script>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</html>

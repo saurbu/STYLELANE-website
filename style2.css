@@ -1,0 +1,1257 @@
+/* 576px for portrait phones.
+768px for tablets.
+992px for laptops.
+1200px for large devices */
+
+
+@media only screen and (max-width: 400px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        position: relative;
+    }
+    
+    #edyoda-logo{
+        height: 40px;
+        position: fixed;
+        bottom: 20px;
+        right: 50px;
+    }
+    
+    header{
+        position: fixed;
+        top: 0;
+        right: 0;
+        justify-content: start;
+        padding: 0px;
+        height: 50px;
+        margin: 0;
+    }
+    
+    #logo-links{
+        padding: 0;
+        height: 100%;
+        margin: 0 20px;
+        width: auto;
+        justify-content: flex-start;
+    }
+
+    #logo{
+        letter-spacing: 1px;
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        font-size: 4vh;
+        font-weight: 500;
+    }
+    
+    #logo2{
+        letter-spacing: 1px;
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        font-weight: 400;
+        font-size: 4vh;
+    }    
+
+    #clothing-link, #accessories-link{
+        display: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    #search-tab{
+        margin: 0 10px;
+        padding: 0;
+        width: auto;
+        background-color: white;
+        height: 100%;
+    }
+
+    #search-box{
+        display: none;
+    }
+
+    .fa-magnifying-glass{
+        color: black;
+        font-size: 18px;
+        padding: 10px;
+        margin: 0;
+    }
+
+    #cart-user{
+        align-items: center;
+        width: auto;
+        margin: 0;
+    }
+
+    #user-img{
+        height: 30px;
+    }
+
+    .fa-cart-shopping{
+        font-size: 18px;
+        margin-right: 25px;
+    }
+
+    #items-count{
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+
+    .carousel{
+        margin-top: 55px;
+        position: relative;
+    }
+
+    .carousel-cell{
+        height: 30vh;
+    }
+
+    .carousel-cell img{
+        width: 100%;
+    }
+
+    #usp{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        width: 300px;
+        padding: 0;
+        margin: 50px auto;
+    }
+
+    .icons{
+        width: 150px;
+        height: 140px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .usp-img{
+        height: 35px;
+    }
+
+    .feature-img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 70px;
+        height: 70px;    
+    }
+
+        
+    @keyframes animate{
+        0% {
+            box-shadow: 0 0 0 0 rgb(0 150 136 / 70%), 0 0 0 0 rgb(0 150 136 / 70%);
+        }
+        
+        40% {
+            box-shadow: 0 0 0 20px rgb(0 150 136 / 0%), 0 0 0 0 rgb(0 150 136 / 70%);
+        }
+        80% {
+            box-shadow: 0 0 0 20px rgb(0 150 136 / 0%), 0 0 0 15px rgb(0 150 136 / 0%);
+        }
+        100% {
+            box-shadow: 0 0 0 0 rgb(0 150 136 / 0%), 0 0 0 15px rgb(0 150 136 / 0%);
+        }
+    }
+
+    .feature-name{
+        font-size: 12px;
+    }
+
+    #clothing-heading, #Accessories-heading{
+        font-size: 20px;
+        margin-left: 20px;
+        margin-top: 50px;
+        color: rgb(27, 25, 25);
+    }
+
+    .card{
+        width: calc(80% - 20px);
+        margin: 30px 5px;
+        background-color: #fff;
+        box-shadow: 0 1px 5px rgb(0 0 0 / 30%);
+        border-radius: 2px;
+    }
+    
+    #footer-details{
+        width: 90%;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-bottom: 50px;
+        padding: 0;
+    }
+
+    footer div{
+        display: inline-block;
+        padding: 0;
+        margin: 0 0 20px;
+        width: 40%;
+    }
+    
+    footer div ul{
+        margin-top: 20px;
+    }
+
+    footer div ul li{
+        margin-bottom: 7px;
+        font-weight: 300;
+        font-size: 14px;
+        padding: 0px 0px;
+    }
+    .ftr-img{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    gap: 20px;
+    padding: 10px;
+}
+.ftr-img img{
+    width: 40px;
+    cursor: pointer;
+}
+footer p{
+    text-align: center;
+    font-size: 20px;
+    color: #62686d;
+    padding: 20px;
+}
+
+    #product-details-cover{
+        flex-wrap: wrap;
+        align-items: center;
+        height: auto;
+        width: 90%;
+        margin: 70px 0 0;
+    }
+    
+    #image-container{
+        padding: 0;
+        margin: auto;
+    }
+
+    #main-image{
+        width: 100%;
+    }
+
+    #preview-product-details{
+        display: inline-block;
+        margin-top: 30px;
+        width: 90vw;
+    }
+
+    .preview-product-name{
+        font-size: 5vh;
+    }
+
+    .preview-product-brand-name, .preview-product-price, .preview-product-description-tag, .preview-product-preview-tag{
+        font-size: 3.5vh;
+        margin-bottom: 5px;
+    }
+
+    .preview-product-description{
+        font-size: 2.5vh;
+    }
+
+    .preview-images{
+        height: 12vh;
+    }
+
+    #cart-items-display{
+        width: 100%;
+        margin: 50px 0 0 ;
+    }
+
+    #checkout-details-container{
+        height: auto;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: start;
+    }
+
+    #checkout-tag{
+        font-size: 4vh;
+        margin-bottom: 10px;
+    }
+
+    #total-items-tag{
+        font-size: 3vh;
+    }
+
+    #item-details-container{
+        width: 90%;
+    }
+
+    .item-details{
+        width: 350px;
+        height: 180px;
+    }
+
+    #total-amount-container{
+        height: auto;
+        width: 90%;
+    }
+    
+    #total-amount-details{
+        width: 350px;
+        height: 150px;
+    }
+
+    #total-amount-details h2{
+        font-size: 3.5vh;
+        margin-bottom: 5px;
+    }
+
+    #total-amount-details h3{
+        font-size: 3.5vh;
+    }
+
+    #total-amount{
+        font-size: 3.5vh;
+    }
+
+
+
+
+
+}
+
+
+@media only screen and (min-width: 401px) and (max-width: 576px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        position: relative;
+    }
+    
+    #edyoda-logo{
+        height: 40px;
+        position: fixed;
+        bottom: 20px;
+        right: 50px;
+    }
+    
+    header{
+        position: fixed;
+        top: 0;
+        right: 0;
+        justify-content: space-around;
+        padding: 0px;
+        height: 50px;
+        margin: 0;
+    }
+    
+    #logo-links{
+        padding: 0;
+        height: 100%;
+        margin: 0 20px;
+        width: auto;
+        justify-content: flex-start;
+    }
+
+    #logo{
+        letter-spacing: 1px;
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        font-size: 4vh;
+        font-weight: 700;
+    }
+    
+    #logo2{
+        letter-spacing: 1px;
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        font-weight: 400;
+        font-size: 4vh;
+    }    
+
+    #clothing-link, #accessories-link{
+        display: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    #search-tab{
+        margin: 0 10px;
+        padding: 0;
+        width: auto;
+        background-color: white;
+        height: 100%;
+    }
+
+    #search-box{
+        display: none;
+    }
+
+    .fa-magnifying-glass{
+        color: black;
+        font-size: 18px;
+        padding: 10px;
+        margin: 0px;
+    }
+
+    #cart-user{
+        display: flex;
+        width: 150px;
+        align-items: center;
+        width: auto;
+        margin: 0 30px 0 0 ;
+    }
+
+    #user-img{
+        height: 30px;
+        margin-left: 0px;
+    }
+
+    .fa-cart-shopping{
+        font-size: 18px;
+        margin-right: 25px;
+    }
+
+    #items-count{
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+
+    .carousel{
+        margin-top: 55px;
+        position: relative;
+    }
+
+    .carousel-cell{
+        height: 30vh;
+    }
+
+    .carousel-cell img{
+        width: 100%;
+    }
+
+    #usp{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 90%;
+        padding: 0;
+        margin: 50px auto;
+    }
+
+    .icons{
+        width: 150px;
+        height: 140px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .usp-img{
+        height: 35px;
+    }
+
+    .feature-img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 70px;
+        height: 70px;    
+    }
+
+        
+    @keyframes animate{
+        0% {
+            box-shadow: 0 0 0 0 rgb(0 150 136 / 70%), 0 0 0 0 rgb(0 150 136 / 70%);
+        }
+        
+        40% {
+            box-shadow: 0 0 0 20px rgb(0 150 136 / 0%), 0 0 0 0 rgb(0 150 136 / 70%);
+        }
+        80% {
+            box-shadow: 0 0 0 20px rgb(0 150 136 / 0%), 0 0 0 15px rgb(0 150 136 / 0%);
+        }
+        100% {
+            box-shadow: 0 0 0 0 rgb(0 150 136 / 0%), 0 0 0 15px rgb(0 150 136 / 0%);
+        }
+    }
+
+    .feature-name{
+        font-size: 12px;
+    }
+
+    #clothing-heading, #Accessories-heading{
+        font-size: 26px;
+        margin-left: 40px;
+        margin-top: 50px;
+        color: rgb(27, 25, 25);
+    }
+
+    .card{
+        width: calc(40% - 20px);
+        margin: 30px 5px;
+        background-color: #fff;
+        box-shadow: 0 1px 5px rgb(0 0 0 / 30%);
+        border-radius: 2px;
+    }
+    
+    footer{
+        width: 100%;
+    }
+
+    #footer-details{
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 0;
+        margin-bottom: 50px;
+        padding: 0;
+    }
+
+    footer div{
+        display: inline-block;
+        padding: 0;
+        margin: 0 0 20px;
+        width: 40%;
+    }
+    
+    footer div ul{
+        margin-top: 20px;
+    }
+
+    footer div ul li{
+        margin-bottom: 7px;
+        font-weight: 300;
+        font-size: 14px;
+        padding: 0px 0px;
+    }
+
+    #product-details-cover{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        height: auto;
+        width: 90%;
+        padding:  20px;
+        margin: 70px 0 0;
+        margin-right: 0;
+    }
+    
+    #image-container{
+        padding: 0;
+        margin: auto;
+        width: 90vw;
+        height: 130vh;
+    }
+
+    #main-image{
+        margin: auto;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+    }
+
+    #preview-product-details{
+        display: inline-block;
+        margin-top: 30px;
+    }
+
+    .preview-product-name{
+        font-size: 6vh;
+    }
+
+    .preview-product-brand-name, .preview-product-price, .preview-product-description-tag, .preview-product-preview-tag{
+        font-size: 4vh;
+        margin-bottom: 10px;
+    }
+
+    .preview-product-description{
+        font-size: 3vh;
+    }
+
+    .preview-images{
+        height: 15vh;
+    }
+
+    #cart-items-display{
+        width: 100%;
+        margin: 50px 0 0 ;
+    }
+
+    #checkout-details-container{
+        height: auto;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: start;
+    }
+
+    #checkout-tag{
+        font-size: 5vh;
+        margin-bottom: 10px;
+    }
+
+    #total-items-tag{
+        font-size: 4vh;
+        margin-left: 10px;
+    }
+
+    #item-details-container{
+        width: 90%;
+    }
+
+    .item-details{
+        width: 520px;
+        height: 180px;
+    }
+
+    #total-amount-container{
+        height: auto;
+        width: 90%;
+    }
+    
+    #total-amount-details{
+        width: 520px;
+        height: 150px;
+    }
+
+    #total-amount-details h2{
+        font-size: 4.5vh;
+        margin-bottom: 5px;
+    }
+
+    #total-amount-details h3{
+        font-size: 4vh;
+    }
+
+    #total-amount{
+        font-size: 4vh;
+    }
+
+
+
+
+
+}
+
+
+
+
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        position: relative;
+    }
+    
+    #edyoda-logo{
+        height: 40px;
+        position: fixed;
+        bottom: 20px;
+        right: 50px;
+    }
+    
+    header{
+        position: fixed;
+        top: 0;
+        right: 0;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 0px;
+        height: 60px;
+        margin: 0;
+    }
+    
+    #logo-links{
+        padding: 0;
+        height: 100%;
+        margin: 0 20px;
+        width: auto;
+        justify-content: flex-start;
+    }
+
+    #logo{
+        letter-spacing: 1px;
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        font-size: 32px;
+        font-weight: 700;
+    }
+    
+    #logo2{
+        letter-spacing: 1px;
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        font-weight: 400;
+        font-size: 32px;    
+    }    
+
+    #clothing-link, #accessories-link{
+        display: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    #search-tab{
+        border-radius: 5px;
+        display: inline-block;
+        margin: 0;
+        width: auto;
+        background-color: white;
+        height: 100%;
+        background-color: rgb(245, 242, 242);
+    }
+
+    #search-box{
+        background-color: rgb(245, 242, 242);
+    }
+
+    .fa-magnifying-glass{
+        color: black;
+        font-size: 18px;
+        padding: 10px;
+        margin: 0;
+    }
+
+    #cart-user{
+        align-items: center;
+        width: auto;
+        margin: 0 30px 0 0 ;
+    }
+
+    #user-img{
+        height: 30px;
+    }
+
+    .fa-cart-shopping{
+        font-size: 18px;
+        margin-right: 25px;
+    }
+
+    #items-count{
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+
+    .carousel{
+        margin-top: 65px;
+        position: relative;
+    }
+
+    .carousel-cell{
+        height: 45vh;
+    }
+
+    .carousel-cell img{
+        width: 100%;
+    }
+
+    #usp{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 90%;
+        padding: 0;
+        margin: 50px auto;
+    }
+
+    .icons{
+        width: 150px;
+        height: 140px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .usp-img{
+        height: 35px;
+    }
+
+    .feature-img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 70px;
+        height: 70px;    
+    }
+
+        
+    @keyframes animate{
+        0% {
+            box-shadow: 0 0 0 0 rgb(0 150 136 / 70%), 0 0 0 0 rgb(0 150 136 / 70%);
+        }
+        
+        40% {
+            box-shadow: 0 0 0 20px rgb(0 150 136 / 0%), 0 0 0 0 rgb(0 150 136 / 70%);
+        }
+        80% {
+            box-shadow: 0 0 0 20px rgb(0 150 136 / 0%), 0 0 0 15px rgb(0 150 136 / 0%);
+        }
+        100% {
+            box-shadow: 0 0 0 0 rgb(0 150 136 / 0%), 0 0 0 15px rgb(0 150 136 / 0%);
+        }
+    }
+
+    .feature-name{
+        font-size: 12px;
+    }
+
+    #clothing-heading, #Accessories-heading{
+        font-size: 26px;
+        margin-left: 40px;
+        margin-top: 50px;
+        color: rgb(27, 25, 25);
+    }
+
+    .card{
+        width: calc(30% - 20px);
+        margin: 30px 5px;
+        background-color: #fff;
+        box-shadow: 0 1px 5px rgb(0 0 0 / 30%);
+        border-radius: 2px;
+    }
+    
+    #footer-details{
+        width: 90%;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        margin-bottom: 10px;
+        padding: 0;
+    }
+
+    footer div{
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+    }
+    
+    footer div ul{
+        margin-top: 20px;
+    }
+
+    footer div ul li{
+        margin-bottom: 7px;
+        font-weight: 300;
+        font-size: 14px;
+        padding: 0px 0px;
+    }
+
+    #product-details-cover{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        height: auto;
+        padding: 0 20px;
+        margin: 70px 0 0;
+    }
+    
+    #image-container{
+        padding: 0;
+        width: 100%;
+        height: 100vh;
+    }
+
+    #main-image{
+        margin: auto;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+    }
+
+    #preview-product-details{
+        display: inline-block;
+        margin-top: 30px;
+    }
+
+    .preview-product-name{
+        font-size: 7vh;
+    }
+
+    .preview-product-brand-name, .preview-product-price, .preview-product-description-tag, .preview-product-preview-tag{
+        font-size: 4.5vh;
+        margin-bottom: 10px;
+    }
+
+    .preview-product-description{
+        font-size: 3.5vh;
+    }
+
+    .preview-images{
+        height: 18vh;
+    }
+
+    #cart-items-display{
+        width: 80%;
+        margin: 60px 0 50px 50px;
+    }
+
+    #checkout-details-container{
+        height: auto;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: start;
+    }
+
+    #checkout-tag{
+        font-size: 7vh;
+        margin-bottom: 10px;
+    }
+
+    #total-items-tag{
+        font-size: 4.5vh;
+        margin-left: 10px;
+    }
+
+    #item-details-container{
+        width: 90%;
+    }
+
+    .item-details{
+        width: 580px;
+        height: 180px;
+    }
+
+    #total-amount-container{
+        height: auto;
+        width: 90%;
+    }
+    
+    #total-amount-details{
+        width: 580px;
+        height: 150px;
+    }
+
+    #total-amount-details h2{
+        font-size: 4.5vh;
+        margin-bottom: 5px;
+    }
+
+    #total-amount-details h3{
+        font-size: 4vh;
+    }
+
+    #total-amount{
+        font-size: 4vh;
+    }
+
+
+
+}
+
+
+
+
+@media only screen and (min-width: 767px) and (max-width: 992px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        position: relative;
+    }
+    
+    #edyoda-logo{
+        height: 40px;
+        position: fixed;
+        bottom: 20px;
+        right: 50px;
+    }
+    
+    header{
+        position: fixed;
+        top: 0;
+        right: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 0px;
+        height: 60px;
+        margin: 0;
+    }
+    
+    #logo-links{
+        padding: 0;
+        height: 100%;
+        margin: 0 20px;
+        width: auto;
+        justify-content: flex-start;
+    }
+
+    #logo{
+        letter-spacing: 1px;
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        font-size: 32px;
+        font-weight: 700;
+    }
+    
+    #logo2{
+        letter-spacing: 1px;
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        font-weight: 400;
+        font-size: 32px;    
+    }    
+
+    #clothing-link, #accessories-link{
+        display: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    #search-tab{
+        border-radius: 5px;
+        display: inline-block;
+        margin: 0;
+        width: auto;
+        background-color: white;
+        height: 100%;
+        background-color: rgb(245, 242, 242);
+    }
+
+    #search-box{
+        background-color: rgb(245, 242, 242);
+}
+
+    .fa-magnifying-glass{
+        color: black;
+        font-size: 18px;
+        padding: 10px;
+        margin: 0;
+    }
+
+    #cart-user{
+        align-items: center;
+        width: auto;
+        margin: 0 40px 0 0 ;
+    }
+
+    #user-img{
+        height: 30px;
+    }
+
+    .fa-cart-shopping{
+        font-size: 18px;
+        margin-right: 40px;
+    }
+
+    #items-count{
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+
+    .carousel{
+        margin-top: 65px;
+        position: relative;
+    }
+
+    .carousel-cell{
+        height: 45vh;
+    }
+
+    .carousel-cell img{
+        width: 100%;
+    }
+
+    #usp{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 90%;
+        padding: 0;
+        margin: 50px auto;
+    }
+
+    .icons{
+        width: 180px;
+        height: 180px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .usp-img{
+        height: 55px;
+    }
+
+    .feature-img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90px;
+        height: 90px;    
+    }
+
+        
+    @keyframes animate{
+        0% {
+            box-shadow: 0 0 0 0 rgb(0 150 136 / 70%), 0 0 0 0 rgb(0 150 136 / 70%);
+        }
+        
+        40% {
+            box-shadow: 0 0 0 20px rgb(0 150 136 / 0%), 0 0 0 0 rgb(0 150 136 / 70%);
+        }
+        80% {
+            box-shadow: 0 0 0 20px rgb(0 150 136 / 0%), 0 0 0 15px rgb(0 150 136 / 0%);
+        }
+        100% {
+            box-shadow: 0 0 0 0 rgb(0 150 136 / 0%), 0 0 0 15px rgb(0 150 136 / 0%);
+        }
+    }
+
+    .feature-name{
+        font-size: 16px;
+    }
+
+    #clothing-heading, #Accessories-heading{
+        font-size: 26px;
+        margin-left: 40px;
+        margin-top: 50px;
+        color: rgb(27, 25, 25);
+    }
+
+    .card{
+        width: calc(25% - 20px);
+        margin: 30px 5px;
+        background-color: #fff;
+        box-shadow: 0 1px 5px rgb(0 0 0 / 30%);
+        border-radius: 2px;
+    }
+    
+    footer{
+        width: 100%;
+    }
+    
+    #footer-details{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin-bottom: 10px;
+        padding: 0;
+    }
+
+    footer div{
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+    }
+    
+    footer div ul{
+        margin-top: 20px;
+    }
+
+    footer div ul li{
+        margin-bottom: 7px;
+        font-weight: 300;
+        font-size: 14px;
+        padding: 0px 0px;
+    }
+
+    #product-details-cover{
+        margin: 70px 0 50px;
+        padding-left: 20px;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #image-container{
+        margin: auto;
+    }
+
+    #cart-items-display{
+        width: 90%;
+        margin: 60px 0px;
+    }
+
+    #checkout-details-container{
+        height: auto;
+        flex-wrap: nowrap;
+    }
+
+    #checkout-tag{
+        font-size: 7vh;
+        margin-bottom: 10px;
+    }
+
+    #total-items-tag{
+        font-size: 4.5vh;
+        margin-left: 10px;
+    }
+
+    #item-details-container{
+        width: 90%;
+        margin-left: 0;
+    }
+
+    .item-details{
+        width: 500px;
+        height: 180px;
+        margin-left: 0;
+    }
+
+    #total-amount-container{
+        height: auto;
+        width: 90%;
+    }
+    
+    #total-amount-details{
+        width: 330px;
+        height: 150px;
+    }
+
+    #total-amount-details h2{
+        font-size: 4.5vh;
+        margin-bottom: 5px;
+    }
+
+    #total-amount-details h3{
+        font-size: 4vh;
+    }
+
+    #total-amount{
+        font-size: 4vh;
+    }
+
+
+}
+
+
