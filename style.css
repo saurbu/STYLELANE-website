@@ -7,6 +7,7 @@
 
 body{
     position: relative;
+    background-color: rgb(163, 164, 162);
 }
 
 header{
@@ -17,17 +18,20 @@ header{
     height: 80px;
     box-shadow: 0 1px 5px rgb(155, 154, 154);
     position: fixed;
+    color: white;
     top: 0;
     left: 0;
     right: 0;
     z-index: 1;
     background-color: white;
+    background-color: rgb(105, 106, 103);
 }
 
 #logo-links{
     display: flex;
     align-items: center;
     cursor: pointer;
+    color: white;
 }
 
 #logo{
@@ -36,12 +40,15 @@ header{
     font-weight: 700;
     text-decoration: none;
     color: #009688;
+    color: white;
 }
 
 #logo2{
     display: inline-block;
     font-size: 6vh;
     font-weight: 400;
+
+    color: white;
     text-decoration: none;
     color: black;
 }
@@ -49,6 +56,7 @@ header{
 #clothing-link, #accessories-link{
     display: inline-block;
     color: black;
+    color: white;
     text-decoration: none;
     font-weight: 600;
     font-size: 16px;
@@ -153,6 +161,7 @@ input:focus{
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
+    color: white;
     width: 80vw;
     margin: auto;
     margin-top: 80px;
@@ -213,12 +222,14 @@ input{
     margin-left: 100px;
     margin-top: 50px;
     color: rgb(27, 25, 25);
+    color: white;
 }
 
 #Accessories-heading{
     margin-left: 100px;
     margin-top: 50px;
     color: rgb(27, 25, 25);
+    color: white;
 }
 
 .card{
@@ -298,6 +309,7 @@ input{
 footer{
     justify-content: space-around;
     background-color: #1c1b1e;
+    background-color: rgb(105, 106, 103);
     color: white;
     margin-top: 50px;
 }
@@ -346,6 +358,7 @@ footer p{
     text-align: center;
     font-size: 20px;
     color: #62686d;
+    color: #000000;
     padding: 20px;
 }
 
