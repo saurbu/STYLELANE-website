@@ -7,7 +7,7 @@
 
 body{
     position: relative;
-    background-color: rgb(163, 164, 162);
+    background-color: rgb(203, 217, 227);
 }
 
 header{
@@ -16,15 +16,14 @@ header{
     align-items: center;
     padding: 10px;
     height: 80px;
-    box-shadow: 0 1px 5px rgb(155, 154, 154);
+    box-shadow: 0 1px 5px rgb(141, 150, 157);
     position: fixed;
-    color: white;
+    color: black;
     top: 0;
     left: 0;
     right: 0;
     z-index: 1;
-    background-color: white;
-    background-color: rgb(203, 217, 227);
+    background-color: rgb(173, 205, 228);
 }
 
 #logo-links{
@@ -46,9 +45,7 @@ header{
 #logo2{
     display: inline-block;
     font-size: 6vh;
-    font-weight: 400;
-
-    color: white;
+    font-weight: 700;
     text-decoration: none;
     color: black;
 }
@@ -56,7 +53,6 @@ header{
 #clothing-link, #accessories-link{
     display: inline-block;
     color: black;
-    color: white;
     text-decoration: none;
     font-weight: 600;
     font-size: 16px;
@@ -66,14 +62,16 @@ header{
 #search-tab{
     display: flex;
     align-items: center;
+    box-shadow: 1px 1px  rgb(59, 53, 53);
     width: 360px;
     margin-left: -20px;
-    background-color: rgb(203, 217, 227);
+    background-color: rgb(199, 213, 223);
 }
 
 #search-box{
     border: none;
-    background-color: rgb(245, 242, 242);
+    background-color: rgb(199, 213, 223);
+    color: black;
     margin-left: 5px;
     appearance: auto;
     font-weight: 500;
@@ -210,6 +208,7 @@ input:focus{
     margin-top: 10px;
     font-size: 18px;
     font-weight: 600;
+    color: black;
     text-align: center;
 }
 
@@ -218,24 +217,17 @@ input{
     cursor: pointer;
 }
 
-#clothing-heading{
+#clothing-heading,#Accessories-heading{
     margin-left: 100px;
     margin-top: 50px;
     color: rgb(27, 25, 25);
-    color: white;
-}
-
-#Accessories-heading{
-    margin-left: 100px;
-    margin-top: 50px;
-    color: rgb(27, 25, 25);
-    color: white;
+    /* color: white;     */
 }
 
 .card{
     width: calc(18.5% - 20px);
     margin: 30px 5px;
-    background-color: #fff;
+    background-color: rgb(233, 229, 229);
     box-shadow: 0 1px 5px rgb(0 0 0 / 30%);
     border-radius: 2px;
 }
@@ -309,8 +301,8 @@ input{
 footer{
     justify-content: space-around;
     background-color: #1c1b1e;
-    background-color: rgb(105, 106, 103);
-    color: white;
+    background-color: rgb(173, 205, 228);
+    color: black;
     margin-top: 50px;
 }
 
@@ -338,7 +330,7 @@ footer div ul li b{
 
 footer div ul li a{
     text-decoration: none;
-    color: white;
+    color: black;
     cursor: pointer;
     padding: 0 10px;
     font-size: 15px;
