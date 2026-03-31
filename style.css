@@ -24,7 +24,7 @@ header{
     right: 0;
     z-index: 1;
     background-color: white;
-    background-color: rgb(105, 106, 103);
+    background-color: rgb(203, 217, 227);
 }
 
 #logo-links{
@@ -68,7 +68,7 @@ header{
     align-items: center;
     width: 360px;
     margin-left: -20px;
-    background-color: rgb(245, 242, 242);
+    background-color: rgb(203, 217, 227);
 }
 
 #search-box{
